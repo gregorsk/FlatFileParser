@@ -4,7 +4,7 @@
 public class FlatFileParserTests
 {
     [Test]
-    public async Task ParseAsync_StateUnderTest_ExpectedBehavior()
+    public void ParseAsync_StateUnderTest_ExpectedBehavior()
     {
         // Arrange
         var flatFileParser = new FlatFileParser<TestRecord>();
